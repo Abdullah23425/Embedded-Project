@@ -6,6 +6,12 @@ It demonstrates a traffic light control system for multiple intersections, contr
 
 The design integrates both hardware components and embedded C programming, providing a practical example of how microcontrollers can be used in real-world traffic management systems.
 
+
+<img width="1920" height="966" alt="Embedded  20250806, 23-29-36  - Proteus 8 Professional - Schematic Capture 8_25_2025 6_35_49 PM" src="https://github.com/user-attachments/assets/b3b9be00-1668-4fbe-8476-6ed8d9347906" />
+
+
+
+
 ⚙️ System Components
 
 PIC16F877A Microcontroller – the main system controller
