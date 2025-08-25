@@ -1,43 +1,52 @@
-🚦 Embedded Traffic Light Control System
-Project Overview
+🚦 Traffic Light Control System (Embedded Project)
+📌 Overview
 
-This project is an Embedded Systems simulation developed using Proteus 8 Professional.
-It demonstrates a traffic light control system with multiple intersections, designed and controlled by a PIC16F877A microcontroller.
+This project is an embedded systems simulation built using Proteus 8 Professional.
+It demonstrates a traffic light control system for multiple intersections, controlled by a PIC16F877A microcontroller.
 
-The system uses:
+The design integrates both hardware components and embedded C programming, providing a practical example of how microcontrollers can be used in real-world traffic management systems.
 
-7-Segment Displays to show timers.
+⚙️ System Components
 
-Traffic Light Modules (Red, Yellow, Green).
+PIC16F877A Microcontroller – the main system controller
 
-PIC16F877A Microcontroller as the main controller.
+7-Segment Displays – countdown timers for each intersection
 
-Push Buttons & Switches for manual input.
+Traffic Light Modules – red, yellow, and green signals
 
-Resistors & Logic Gates (7447) for signal handling.
+Push Buttons & Switches – manual input and control
 
-Features
+7447 Decoder & Logic Components – signal handling
 
-Real-time traffic light sequencing.
+Resistors & LEDs – supporting components
 
-Countdown display using 7-segment modules.
+✨ Features
 
-Multiple intersection management.
+✔️ Real-time traffic light sequencing
+✔️ Countdown timers displayed on 7-segment modules
+✔️ Supports multiple intersections
+✔️ Fully simulated environment in Proteus
 
-Fully simulated in Proteus.
+🛠️ Tools & Technologies
 
-Tools & Technologies
+Proteus 8 Professional – schematic design & simulation
 
-Proteus 8 Professional (circuit design & simulation).
+MPLAB / MikroC – embedded C programming
 
-Embedded C (MPLAB / MikroC) for microcontroller programming.
+PIC16F877A – 8-bit microcontroller
 
-PIC16F877A microcontroller.
+▶️ How to Run
 
-How to Run
+Open the project in Proteus 8 Professional
 
-Open the project in Proteus 8 Professional.
+Load the generated .hex file into the PIC16F877A
 
-Load the .hex file into the PIC16F877A.
+Run the simulation and watch the traffic light system in action
 
-Run the simulation and observe the traffic light operation.
+🚀 Future Improvements
+
+Adding IR sensors for real-time vehicle detection
+
+Implementing adaptive timing based on traffic density
+
+Extending the system to support smart city integration
